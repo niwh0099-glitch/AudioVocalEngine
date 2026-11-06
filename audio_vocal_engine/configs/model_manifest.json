@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "models": {
+    "HP2_all_vocals": {
+      "path": "HP2_all_vocals.pth",
+      "bytes": 63454827,
+      "sha256": "39796caa5db18d7f9382d8ac997ac967bfd85f7761014bb807d2543cc844ef05"
+    },
+    "HP5_only_main_vocal": {
+      "path": "HP5_only_main_vocal.pth",
+      "bytes": 63454827,
+      "sha256": "5908891829634926119720241e8573d97cbeb8277110a7512bdb0bd7563258ee"
+    },
+    "model_bs_roformer_ep_317_sdr_12.9755": {
+      "path": "model_bs_roformer_ep_317_sdr_12.9755.ckpt",
+      "bytes": 319754015,
+      "sha256": "414b7ea8e3f57485282886f0bae273a898e02b9ca14524cdefa0fb9f5784e4d1"
+    },
+    "VR-DeEchoAggressive": {
+      "path": "VR-DeEchoAggressive.pth",
+      "bytes": 63666335,
+      "sha256": "8c8fd1582f9aabc363e47af62ddb88df6cae7e064cae75bbf041a067a5e0aee2"
+    },
+    "VR-DeEchoDeReverb": {
+      "path": "VR-DeEchoDeReverb.pth",
+      "bytes": 111925279,
+      "sha256": "01376dd2a571bf3cb9cced680732726d2d732609d09216a610b0d110f133febe"
+    },
+    "VR-DeEchoNormal": {
+      "path": "VR-DeEchoNormal.pth",
+      "bytes": 63666335,
+      "sha256": "56aba59db3bcdd14a14464e62f3129698ecdea62eee0f003b9360923eb3ac79e"
+    },
+    "onnx_dereverb_By_FoxJoy": {
+      "path": "onnx_dereverb_By_FoxJoy/vocals.onnx",
+      "bytes": 66780123,
+      "sha256": "233bb5c6aaa365e568659a0a81211746fa881f8f47f82d9e864fce1f7692db80"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audio-vocal-engine"
+version = "1.0.0"
+description = "Standalone UVR vocal separation, deecho, and dereverb engine"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/niwh0099-glitch/AudioVocalEngine"
+
+[tool.setuptools.packages.find]
+include = ["audio_vocal_engine*"]
+
+[tool.setuptools.package-data]
+audio_vocal_engine = ["configs/*.json", "vendor/*.txt", "vendor/lib/*.json", "vendor/lib/lib_v5/modelparams/*.json"]
